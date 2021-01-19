@@ -79,12 +79,12 @@ function App() {
     <div className="App">
       <FormContainer> 
      
-      <Input placeholder="User name" size="2em"  />
+      <Input id="username" placeholder="Username" size="2em"  />
       <br />
-      <Input placeholder="password" type="password" size ="2em" />
+      <Input id="password" placeholder="password" type="password" size ="2em" />
       <br/>
       
-      <A href="https://en.wikipedia.org/"><Button primary> Sign in </Button></A>
+      <A id="sign in" href="https://en.wikipedia.org/"><Button primary> Sign in </Button></A>
       <Button> Sign Up </Button>
 
 
