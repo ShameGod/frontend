@@ -25,7 +25,7 @@ const FooterLayout  = styled.div`
 const FormContainer = styled.div`
 
     width : 25%;
-    height : 30em ;
+    height : 20em ;
     background-color : #EFBBB0;
     border-radius : 10px;
     position : absolute;
@@ -46,6 +46,7 @@ const Input = styled.input.attrs(props => ({
   font-size: 1em;
   border: 2px solid palevioletred;
   border-radius: 3px;
+  margin : "10px";
 
   /* here we use the dynamically computed prop */
   margin: ${props => props.size};
@@ -79,9 +80,9 @@ function App() {
     <div className="App">
       <FormContainer> 
      
-      <Input id="username" placeholder="Username" size="2em"  />
+      <Input id="username" placeholder="Username" size="0.8em"  />
       <br />
-      <Input id="password" placeholder="password" type="password" size ="2em" />
+      <Input id="password" placeholder="password" type="password" size ="0.8em" />
       <br/>
       
       <A id="sign in" href="https://en.wikipedia.org/"><Button primary> Sign in </Button></A>
