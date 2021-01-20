@@ -85,7 +85,7 @@ function App() {
       <Input id="password" placeholder="password" type="password" size ="0.8em" />
       <br/>
       
-      <A id="sign in" href="https://en.wikipedia.org/"><Button primary> Sign in </Button></A>
+      <A href ="https://en.wikipedia.org/" id="signIn"><Button primary>  Sign in  </Button></A>
       <Button> Sign Up </Button>
 
 
